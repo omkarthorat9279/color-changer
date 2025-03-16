@@ -16,6 +16,9 @@ html {
     height: 100px;
     border: solid black 2px;
     display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
   }
   
   #grey {
@@ -25,10 +28,25 @@ html {
   #white {
     background: white;
   }
-  #blue {
-    background: blue;
+  #red {
+    background: red;
   }
   #yellow {
     background: yellow;
   }
-  
+
+  #custom-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
